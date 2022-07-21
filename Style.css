@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(44, 47, 130, 0.76) -3.47%, rgba(52, 136, 136, 0.76) 86.11%);
+
+}
+
+.wrapper {
+    width: 900px;
+    margin: 5% auto;
+    display: flex;
+}
+
+.myform {
+    display: flex;
+  
+}
+
+fieldset input:focus {
+    outline: none;
+}
+
+h1,p {
+    text-align: center;
+}
+ h1 {
+    margin-bottom: 2px;
+ }
+.section1 {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    background:#fff; 
+    border-radius: 10px;
+    height:90vh;
+}
+
+.section2 {
+    background:#34294A ;
+    border-radius: 3px;
+    height: 90vh;
+    width: 30%;
+}
+
+.section1 .box1 fieldset input{
+    border: none;
+}
+
+.mail,.ssn,.phone {
+    width: 433px;
+    background: transparent;
+    border: none;
+}
+
+.ssn{
+    margin-left: 3px;
+}
+
+.f1{
+    width: fit-content;
+    margin-left: 52px ;
+    margin-top: 20px;
+    
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+hr {
+    background: #445E34;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 190px;
+    margin-top: 7px;
+}
+
+.box2 input{
+    width: 64px;
+    height: 38px;
+}
+
+.sec1 {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: black;
+    background-color: #51AA5A;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    width: fit-content;
+    border-radius: 3px;
+}
+
+label {
+    margin: 5px;
+    padding: 25px;
+}
+
+.date{
+    margin: 15px;
+    width: 70px;
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.block3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.titre {
+    width: 150px;
+    color: #fff;
+}
+
+.end {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: black;
+    background-color: #51AA5A;
+    justify-content: center;
+    margin-left: 520px;
+}
